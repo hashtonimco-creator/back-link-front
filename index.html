@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>کره بادام زمینی لایف استایل - تخفیف 100 هزار تومانی</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- تخفیف بنر بالا -->
+        <div class="discount-banner">
+            <div class="discount-text">
+                <h1>کد تخفیف ۱۰۰ هزار تومنی</h1>
+                <p id="countdown">⌛️ فقط تا <span id="timer">۳۰:۰۰</span> دقیقه دیگه ⌛️</p>
+            </div>
+        </div>
+
+        <!-- بنر پیشنهاد ویژه -->
+        <div class="special-offer">
+            <div class="offer-icon">🎉</div>
+            <span>تخفیف ویژه لایف استایل</span>
+        </div>
+
+        <!-- بخش محصول -->
+        <div class="product-section reveal">
+            <div class="product-image">
+                <img src="life_style_peanut.png" alt="کره بادام زمینی لایف استایل" id="product-img">
+            </div>
+            <div class="product-info">
+                <h2>کره ی بادام زمینی</h2>
+                <h3>لایف استایل</h3>
+                <p class="organic">صد در صد ارگانیک</p>
+            </div>
+        </div>
+
+        <!-- مزایا -->
+        <div class="benefits-section reveal">
+            <div class="benefit-item">
+                <span class="check-icon">✓</span>
+                <span>ارسال رایگان</span>
+            </div>
+            <div class="benefit-item">
+                <span class="check-icon">✓</span>
+                <span>پرداخت درب منزل</span>
+            </div>
+            <div class="benefit-item">
+                <span class="check-icon">✓</span>
+                <span>ضمانت مرجوعی</span>
+            </div>
+        </div>
+
+        <!-- فرم دریافت کد تخفیف -->
+        <div class="cta-section reveal">
+            <div class="form-container">
+                <input type="tel" id="phone-input" placeholder="شماره موبایل" maxlength="11">
+                <button id="get-discount-btn" onclick="getDiscountCode()">دریافت کد تخفیف</button>
+            </div>
+        </div>
+
+        <!-- نظرات مشتریان -->
+        <div class="testimonials-section reveal">
+            <h3>نظرات مشتریان راضی ما</h3>
+            
+            <div class="testimonial">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <div class="customer-info">
+                    <div class="customer-avatar">👨‍💼</div>
+                    <div class="customer-details">
+                        <h4>علی رضایی</h4>
+                        <p>"طعمش عالیه و خیلی مقوی. بهترین کره بادام زمینی که تا حالا خوردم. برای بعد تمرین فوق‌العاده‌ست."</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <div class="customer-info">
+                    <div class="customer-avatar">👩‍💼</div>
+                    <div class="customer-details">
+                        <h4>مریم احمدی</h4>
+                        <p>"کیفیتش خوبه و سریع به دستم رسید. صد در صد ارگانیک و بدون مواد نگهدارنده. حتماً دوباره سفارش میدم."</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <div class="customer-info">
+                    <div class="customer-avatar">👨‍💻</div>
+                    <div class="customer-details">
+                        <h4>محمد حسینی</h4>
+                        <p>"دقیقاً همونی بود که دنبالش بودم. پروتئین بالا و بدون شکر اضافی. برای رژیم غذایی‌ام عالیه."</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="success-banner">
+                <span class="checkmark-green">✓</span>
+                <span>بیش از ۲,۵۰۰ سفارش موفق تا امروز</span>
+            </div>
+        </div>
+
+        <!-- پیام موفقیت -->
+        <div id="success-message" class="success-message hidden">
+            <div class="success-content">
+                <h3>تبریک! 🎉</h3>
+                <p>شما <strong>۱۰۰ هزار تومان</strong> اعتبار ویژه گرفتید</p>
+                <div class="discount-code">
+                    <span>کد تخفیف شما:</span>
+                    <strong id="discount-code">LIFE100</strong>
+                </div>
+                <p class="call-message">همکاران ما تا دقایقی دیگه با شما تماس می‌گیرن</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
